@@ -11,8 +11,9 @@
     }
     &__descr {
         width: 389px;
+        color:#4d1f72;
         p {
-            color: #383838;
+            color: darkgreen;
             margin-bottom: 15px;
             font-size: 12px;
             line-height: 180%;
@@ -23,13 +24,12 @@
         font-weight: 700;
         font-size: 24px;
         line-height: 150%;
-       
         &::after{
             display: block;
             margin-top: 31px;
             margin-bottom: 21px;
             content: "";
-            background-color: #ddd;
+            background-color: #64af32f5;
             height: 3px;
         }
     }

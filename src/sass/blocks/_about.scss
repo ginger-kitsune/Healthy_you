@@ -1,28 +1,36 @@
 .about {
     &__products {
-        height: 422px;
-        background: url('../img/bg.jpg') center center/cover no-repeat;
-        padding: 16px 500px 57px 126px;
+        height: 500px;
+        background: url('../img/about_bg.jpg') center center/cover no-repeat;
+        padding: 30px 500px 30px 126px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        img {
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
     }
     &__product {
         display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         img {
-            margin-right: 30px;
+            margin-right: 25px;
+            max-width: 100px;
             &:last-child{
                 margin-right: 0;
             }
         }
     }
     &__descr {
-        padding: 73px 470px 50px 90px;
-        background: url('../img/about_bg.png') center right no-repeat #0055D3;
+        margin-top: 40px;
+        padding: 73px 90px 50px 600px;
+        background: url('../img/header__bg_1.png') center left no-repeat rgb(1, 136, 12);
+        background-size: 50%;
         min-height: 472px;
         text-align: center;
         color: #fff;
         font-size: 14px;
-        line-height: 230%;
+        line-height: 150%;
     }
     &__title{
         font-weight: 700;
@@ -30,8 +38,8 @@
         margin-bottom: 40px;
     }
     &__policies {
-        padding-top: 115px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 

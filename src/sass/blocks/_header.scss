@@ -11,7 +11,7 @@
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 30px ;
         background: 
         linear-gradient(135deg, green 25%, transparent 25%) -50px 0,
@@ -39,7 +39,7 @@
                     font-size: 16px;
                     &:hover {
                         text-decoration: none;
-                        font-size: 18px;
+                        transform: scale(1.15);
                     }
                 }
                 img {
@@ -64,13 +64,12 @@
         background-color: #fff;
         border-radius: 0 0 15px 15px;   
         a{
-            color: #000;
+            color: #4d1f72;
             text-transform: uppercase;
            
             text-align: center;
             &:hover~.header__tab {
                 display: block;
-
             }
         }
     }
@@ -83,12 +82,15 @@
         position: relative;
         display: none;
         width: 150%;
-        background-color: #fff;
+        background-color: white;
         z-index: 2;
         padding: 10px;
         margin: 10px 0;
         border-radius: 15px;   
-        border: 1px solid rgba(0, 85, 211, 0.9);
+        border: 1px solid rgb(1, 136, 12);
+        &:hover {
+            display: block;
+        }
 
     }
     .container {
