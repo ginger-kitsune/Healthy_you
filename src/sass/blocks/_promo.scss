@@ -1,0 +1,37 @@
+.promo {
+    margin-bottom: 40px;
+    .container {
+        padding: 47px 0 70px 0;
+    }
+    &__card {
+    display: flex;
+    justify-content: space-around;
+    height: 467px;
+    margin: 0 90px;
+    }
+    &__descr {
+        width: 389px;
+        p {
+            color: #383838;
+            margin-bottom: 15px;
+            font-size: 12px;
+            line-height: 180%;
+            opacity: 0.7;
+        }
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 150%;
+       
+        &::after{
+            display: block;
+            margin-top: 31px;
+            margin-bottom: 21px;
+            content: "";
+            background-color: #ddd;
+            height: 3px;
+        }
+    }
+   
+}

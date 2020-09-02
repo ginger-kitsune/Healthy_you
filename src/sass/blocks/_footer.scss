@@ -1,0 +1,16 @@
+.footer {
+    font-family: 'Open Sans', sans-serif;
+    .container {
+        min-height: 212px;
+        padding: 50px 0 40px 0;
+        text-align: center;
+    }
+    &__payment {
+        color: #979797;
+        margin-bottom: 40px;
+        img {
+            margin-left: 5px;
+        }
+    }
+
+}

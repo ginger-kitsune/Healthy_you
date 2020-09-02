@@ -1,0 +1,37 @@
+.about {
+    &__products {
+        height: 422px;
+        background: url('../img/bg.jpg') center center/cover no-repeat;
+        padding: 16px 500px 57px 126px;
+    }
+    &__product {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        img {
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+    &__descr {
+        padding: 73px 470px 50px 90px;
+        background: url('../img/about_bg.png') center right no-repeat #0055D3;
+        min-height: 472px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        line-height: 230%;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+    &__policies {
+        padding-top: 115px;
+        padding-bottom: 50px;
+    }
+}
+

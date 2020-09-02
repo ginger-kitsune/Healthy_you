@@ -1,0 +1,32 @@
+.btn {
+    display: block;
+    background-color: #a4f86cf5;
+    border-radius: 50px;
+    color:#1B263B;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    &:hover {
+        background-color: #4d1f72;
+        color:#fff;
+        text-decoration: none;
+    }
+    &-all {
+        width: 206px;
+        height: 51px;
+        margin-top: 9px;
+        line-height: 51px; 
+    }
+    &-look {
+        width: 180px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    &-center {
+        margin: 0 auto;
+        font-size: 18px;
+
+    }
+}

@@ -1,0 +1,56 @@
+.slider {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 385px;
+    user-select: none;
+
+
+    &__back, &__item {
+        width: 100%;
+        height: 279px;
+        max-height: 80%;
+        margin-bottom: 39px;
+    }    
+    &__radio {
+        display: none;
+    }   
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+        
+    }
+        
+    &__item {
+        position: absolute; 
+        z-index: -1; 
+        top: 0; 
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    &__view {
+        cursor: pointer;
+        width: 1px;
+        height: 59px;
+        max-height: 20%;
+        flex-grow: 1;
+        margin-right: 22px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__img_item {
+        object-fit: contain;
+    }
+    &__radio:checked+&__item {
+        opacity: 1;
+    }
+    &__radio:checked+&__item+&__view {
+        border: 2px solid #000;
+    }
+}
+

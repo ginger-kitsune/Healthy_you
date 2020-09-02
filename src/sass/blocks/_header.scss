@@ -1,0 +1,98 @@
+.header {
+    
+    &__logo {
+        display: block;
+        margin: 30px auto;
+        width: 394px;
+    }
+    &__menu {
+        height: 193px;
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: space-between;
+        padding: 30px ;
+        background: 
+        linear-gradient(135deg, green 25%, transparent 25%) -50px 0,
+        linear-gradient(225deg, green 25%, transparent 25%) -50px 0,
+        linear-gradient(315deg, green 25%, transparent 25%),
+        linear-gradient(45deg, green 25%, transparent 25%);	
+        background-size: 2em 2em;
+        background-color: rgb(1, 136, 12);
+        border-radius: 15px;   
+        border: 1px solid rgb(1, 136, 12);
+    }
+    &__nav{
+        ul{ 
+            display: flex;
+            justify-content: space-between;
+            margin-right: 18px;
+            li {
+                width: 96px;
+                list-style: none;
+                text-align: center;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    color: #fff;
+                    font-size: 16px;
+                    &:hover {
+                        text-decoration: none;
+                        font-size: 18px;
+                    }
+                }
+                img {
+                    margin: 0 auto;
+                    margin-bottom: 9px;
+                    max-height: 36px;
+                }
+            }
+        }
+    }
+    &__category{
+        display: flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        justify-content: space-between;
+        transform: translateY(-67px);
+        height: 66px;
+        width: 1028px;
+        margin: 0 auto;
+        padding: 25px 62px 20px 56px;
+        background-color: #fff;
+        border-radius: 0 0 15px 15px;   
+        a{
+            color: #000;
+            text-transform: uppercase;
+           
+            text-align: center;
+            &:hover~.header__tab {
+                display: block;
+
+            }
+        }
+    }
+    &__tabs {
+        display: flex;
+        flex-direction: column;
+        width:152px;
+    }
+    &__tab {
+        position: relative;
+        display: none;
+        width: 150%;
+        background-color: #fff;
+        z-index: 2;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 15px;   
+        border: 1px solid rgba(0, 85, 211, 0.9);
+
+    }
+    .container {
+        box-shadow: none;
+        margin-bottom: -27px;
+    }
+}
