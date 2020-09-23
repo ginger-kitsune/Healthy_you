@@ -1,13 +1,11 @@
 .tabs{
     &__nav {
-        list-style: none;
+        position: relative;
         padding: 0 60px;
         display: flex;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
         justify-content:space-around;
-        position: relative;
+        list-style: none;
+        text-align: center;
         &::after {
             position: absolute;
             content: "";

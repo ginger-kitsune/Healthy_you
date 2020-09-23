@@ -18,11 +18,12 @@
         line-height: 51px; 
     }
     &-look {
-        width: 180px;
+        position: absolute;
+        bottom: 5px;
+        width: 90%;
         height: 40px;
         font-size: 18px;
         line-height: 40px;
-        margin: 0 auto;
     }
     &-center {
         margin: 0 auto;

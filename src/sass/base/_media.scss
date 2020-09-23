@@ -1,6 +1,14 @@
 @media (max-width: 991px) {
     .container {
-        max-width: 90%;
+       max-width: 90%;
+    }
+    .title {
+        margin-bottom: 20px;
+    }
+    .btn {
+        &-look {
+            font-size: 16px;
+        }
     }
     .header {
         &__category {
@@ -16,6 +24,28 @@
             width: 45%;
         }
     }
+    .also {
+        &::before {
+            margin-bottom: 20px;
+        }
+        &__price{
+            position: absolute;
+            left:50%;
+            transform: translateX(-50%);
+            bottom: 60px;
+            font-size: 20px;
+            line-height: 24px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    }
+    .about {
+        &__descr {
+            padding-left: 55%;
+        }
+    }
     .tabs {
         &__content {
             width: 90%;
@@ -25,6 +55,9 @@
                     padding: 20px;
                 }
             }
+        }
+        &__nav {
+            text-align: center;
         }
     }
 }
