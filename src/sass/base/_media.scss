@@ -72,6 +72,7 @@
             align-items: center;
             justify-content: flex-end;
             padding: 3%;
+            height: 220px;
         }
         &__nav {
             width: 100%;
@@ -128,8 +129,12 @@
     .also {
         margin: 0 auto;
         margin-top: 20px;
+        &__goods {
+            flex-direction: column;
+            align-items: center;
+        }
         &__good {
-            height: auto;
+            max-width: 50%;
         }
         &__subtitle {
             font-size: 10px;
@@ -143,13 +148,13 @@
     .btn {
         &-all {
             font-size: 3vw;
-            width: 50%;
+            width: 40%;
             margin-top: 0;
             height: 40px;
             line-height: 40px;
         }
         &-look {
-            width: 100%;
+            width: 90%;
             font-size: 2vw;
         }
     }
